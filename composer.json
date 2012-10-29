@@ -1,0 +1,14 @@
+{
+    "name": "cunningsoft/smarty",
+    "description": "Old smarty version with custom plugin",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Daniel Mecke",
+            "email": "daniel.mecke@cunningsoft.de"
+        }
+    ],
+    "require": {
+
+    }
+}
