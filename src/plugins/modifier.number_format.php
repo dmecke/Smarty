@@ -21,9 +21,9 @@
  * @return string
  */
 
-function smarty_modifier_number_format($number, $decimals="2", $decpoint=".", $thousandsep=",")
+function smarty_modifier_number_format($number, $decpoint=".", $thousandsep=",")
 {
-    return number_format($number, $decimals, $decpoint, $thousandsep);
+    return number_format($number, 0, $decpoint, $thousandsep);
 }
 
 /* vim: set expandtab: */
